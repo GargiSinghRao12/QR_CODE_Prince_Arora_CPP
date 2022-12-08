@@ -5,7 +5,7 @@
 
 int main() {
 
-    std::string qrText = "https://raymii.org";
+    std::string qrText = "https://www.lpu.in/";
     std::string fileName = "example1.png";
 
     int imgSize = 300;

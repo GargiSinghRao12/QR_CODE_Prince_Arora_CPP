@@ -2,7 +2,7 @@
 
 A bridge between two great libraries, [QR-Code-Generator][1] and [Tiny-PNG-Out][2].
 
-[View this page on https://raymii.org][6].
+[View this page on https://www.lpu.in/][6].
 
 ![qr code example][3]
  
@@ -97,11 +97,11 @@ The binary which writes example files is located in the `src/` folder:
 Running it should generate 3 example QR codes:
 
     /home/remy/Repo/cpp-qr-to-png/cmake-build-debug/src/qr-to-png
-    Writing Example QR code 1 (normal) to example1.png with text: 'https://raymii.org', size: 300x300, qr module pixel size: 3. 
+    Writing Example QR code 1 (normal) to example1.png with text: 'https://www.lpu.in/', size: 300x300, qr module pixel size: 3. 
     Success!
-    Writing Example QR code 2 (tiny) to example2.png with text: 'https://raymii.org', size: 40x40, qr module pixel size: 1. 
+    Writing Example QR code 2 (tiny) to example2.png with text: 'https://www.lpu.in/', size: 40x40, qr module pixel size: 1. 
     Success!
-    Writing Example QR code 3 (huge) to example3.png with text: 'https://raymii.org', size: 1080x1080, qr module pixel size: 20. 
+    Writing Example QR code 3 (huge) to example3.png with text: 'https://www.lpu.in/', size: 1080x1080, qr module pixel size: 20. 
     Success!
 
 However, the built version of this program is not very usefull, it's about the code itself.
@@ -111,7 +111,7 @@ However, the built version of this program is not very usefull, it's about the c
 In `src/main.cpp` you will find 4 examples on how to use the class. Here is 
 one example:
 
-    auto exampleQrPng1 = QrToPng("example1.png", 300, 3, "https://raymii.org", true, qrcodegen::QrCode::Ecc::MEDIUM);
+    auto exampleQrPng1 = QrToPng("example1.png", 300, 3, "https://www.lpu.in/", true, qrcodegen::QrCode::Ecc::MEDIUM);
     exampleQrPng1.writeToPNG()  
     
 Which results in the below image as `example1.png`:
@@ -123,7 +123,7 @@ Which results in the below image as `example1.png`:
 
 QrToPng:
 
-    Copyright © 2020 Remy van Elst (https://raymii.org)
+    Copyright © 2020 Remy van Elst (https://www.lpu.in/)
     License: GNU GPLv3
 
 QR Code generator:
@@ -144,4 +144,4 @@ Licenses are also includes in the `libs/` folders.
 [3]: example1.png
 [4]: example2.png
 [5]: brown.png
-[6]: https://raymii.org/s/software/Cpp_generate_qr_code_and_write_it_to_png_scaled.html
+[6]: https://www.lpu.in/

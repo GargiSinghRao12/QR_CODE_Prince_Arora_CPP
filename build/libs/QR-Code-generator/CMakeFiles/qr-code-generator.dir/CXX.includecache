@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/cpp-qr-to-png_price_arora/libs/QR-Code-generator/QrCode.cpp
+algorithm
+-
+climits
+-
+cstddef
+-
+cstdlib
+-
+cstring
+-
+sstream
+-
+stdexcept
+-
+utility
+-
+QrCode.hpp
+/workspaces/cpp-qr-to-png_price_arora/libs/QR-Code-generator/QrCode.hpp
+
+/workspaces/cpp-qr-to-png_price_arora/libs/QR-Code-generator/QrCode.hpp
+array
+-
+cstdint
+-
+stdexcept
+-
+string
+-
+vector
+-
+

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/cpp-qr-to-png_price_arora/libs/tinypngout/TinyPngOut.cpp
+algorithm
+-
+cassert
+-
+limits
+-
+stdexcept
+-
+TinyPngOut.hpp
+/workspaces/cpp-qr-to-png_price_arora/libs/tinypngout/TinyPngOut.hpp
+
+/workspaces/cpp-qr-to-png_price_arora/libs/tinypngout/TinyPngOut.hpp
+cstddef
+-
+cstdint
+-
+ostream
+-
+
